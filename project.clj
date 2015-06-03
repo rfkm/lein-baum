@@ -4,4 +4,5 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true
-  :dependencies [[rkworks/baum "0.2.0"]])
+  :dependencies [[rkworks/baum "0.2.0"]]
+  :profiles {:dev {:dependencies [[leiningen-core "2.5.1"]]}})
