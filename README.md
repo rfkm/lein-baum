@@ -7,10 +7,14 @@ into your project.clj by using [Baum](https://github.com/rkworks/baum).
 
 ## Usage
 
-Put `[rkworks/lein-baum "0.1.0-SNAPSHOT"]` into the `:plugins` vector
-of your project.clj. Then, add `:baum-path` key to specify which file
-Baum should read. Finally, you can now embed a part of the specified
-config file by using `^:baum/get-in`:
+Put the following dependency into the `:plugins` vector of your
+project.clj:
+
+[![Clojars Project](http://clojars.org/rkworks/lein-baum/latest-version.svg)](http://clojars.org/rkworks/lein-baum)
+
+Then, add `:baum-path` key to specify which file Baum should read.
+Finally, you can now embed a part of the specified config file by
+using `^:baum/get-in`:
 
 ```clj
 :foo ^:baum/get-in [:key1 :key2]
