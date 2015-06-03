@@ -1,5 +1,7 @@
 # lein-baum
 
+[![Circle CI](https://circleci.com/gh/rkworks/lein-baum.svg?style=svg)](https://circleci.com/gh/rkworks/lein-baum)
+
 A tiny Leiningen plugin to embed a piece of config in an external file
 into your project.clj by using [Baum](https://github.com/rkworks/baum).
 
